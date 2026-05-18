@@ -3,7 +3,8 @@ import math
 
 from calculo_areas import area_triangulo, area_cuadrado, area_rectangulo, area_circulo, area_trapecio, area_rombo
 
-
+# CLASE PARA PRUEBAS UNITARIAS DE CÁLCULO DE ÁREAS
+# PARA CADA ARÉA SE PRUEBAN CASOS VÁLIDOS, CASOS CON DATOS NEGATIVOS Y CASOS CON DATOS INCORRECTOS (texto en lugar de números)
 class pruebaAreas(unittest.TestCase):
     
     # ---------- TRIÁNGULO ----------
